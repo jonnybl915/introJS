@@ -30,3 +30,21 @@ var containerElement = document.querySelector('.container')
 var destroyEverything = function () {
   containerEl.innerHTML = "<h3><mark> I told you not to push<br>I told you not to push<br>I told you not to push<mark><h3>"
 }
+
+//String assignment to variable
+var aGrtg = "Hey how are you?"
+
+//basic math wtih JS
+//tip calculator
+
+var totalMealCost = ((20 * 1.08) * 1.20)
+
+var calcMeal = function (menuCost) {
+  var foodTax = .08
+  var tip = .20
+  return (menuCost * (1 + foodTax)) * (1 + tip)
+}
+var totalMealCost1 = menuCost(20)
+var totalMealCost2 = menuCost(30)
+var totalMealCost3 = menuCost(45)
+calcMeal(33)
